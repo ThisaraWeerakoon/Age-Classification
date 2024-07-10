@@ -4,6 +4,10 @@
 # Age Classification Using Transfer Learning     
 
 [![Blog](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@thisara.weerakoon2001/age-classification-using-transfer-learning-vgg16-d2f240f67d26)
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+	![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+ ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 
 
 <!--  
@@ -101,56 +105,38 @@ To test the trained model on new images, follow these steps:
   plt.imshow(new_sample_img_rgb)
 ```
 
+## Credits
 
+We used several third-party assets and tutorials, including:
 
+- [Tensorflow](https://www.tensorflow.org/api_docs)
 
-## How to run   
-First, install dependencies   
-```bash
-# clone project   
-git clone https://github.com/ThisaraWeerakoon/Age-Classification
+## License
 
-# install project   
-cd deep-learning-project-template 
-pip install -e .   
-pip install -r requirements.txt
- ```   
- Next, navigate to any file and run it.   
- ```bash
-# module folder
-cd project
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-# run module (example: mnist as your main contribution)   
-python lit_classifier_main.py    
-```
+## Badges
 
-## Imports
-This project is setup as a package which means you can now easily import any file into any other file like so:
-```python
-from project.datasets.mnist import mnist
-from project.lit_classifier_main import LitClassifier
-from pytorch_lightning import Trainer
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+	![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+ ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 
-# model
-model = LitClassifier()
+## How to Contribute
 
-# data
-train, val, test = mnist()
+We welcome contributions from the community! If you are interested in contributing, please follow these guidelines:
 
-# train
-trainer = Trainer()
-trainer.fit(model, train, val)
-
-# test using the best model!
-trainer.test(test_dataloaders=test)
-```
-
-### Citation   
-```
-@article{YourName,
-  title={Your Title},
-  author={Your team},
-  journal={Location},
-  year={Year}
-}
-```   
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+    ```sh
+    git checkout -b feature-or-bugfix-name
+    ```
+3. Commit your changes:
+    ```sh
+    git commit -m "Description of the feature or bug fix"
+    ```
+4. Push to the branch:
+    ```sh
+    git push origin feature-or-bugfix-name
+    ```
+5. Open a pull request and provide a detailed description of your changes.
