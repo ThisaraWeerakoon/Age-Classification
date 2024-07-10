@@ -110,6 +110,7 @@ To test the trained model on new images, follow these steps:
 We used several third-party assets and tutorials, including:
 
 - [Tensorflow](https://www.tensorflow.org/api_docs)
+- [VGG16 Model](https://keras.io/api/applications/vgg/)
 
 ## License
 
