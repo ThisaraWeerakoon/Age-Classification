@@ -11,6 +11,8 @@ Conference
 -->   
 </div>
 
+![1_d6pG5pm8BKBe5uz16sp4zg-ezgif com-webp-to-jpg-converter](https://github.com/ThisaraWeerakoon/Age-Classification/assets/83450623/e02f049b-806e-41a5-9871-bdab48dfefd2)
+
 You can have a look into my <a href= "https://medium.com/@thisara.weerakoon2001/age-classification-using-transfer-learning-vgg16-d2f240f67d26">medium post</a> for a comprehensive explanation about the code and theory behind the project
  
 ## Description   
@@ -56,6 +58,9 @@ This project explores the use of deep learning to predict a person's age from fa
 6. **Age Prediction:**
    - A function was developed to predict the age group of new images.
    - The function preprocesses the input image, makes predictions using the trained model, and maps the predictions to age groups.
+
+## Visualization of the model used
+![0_cV6Ciyjm0pdebW_2-ezgif com-webp-to-jpg-converter](https://github.com/ThisaraWeerakoon/Age-Classification/assets/83450623/e3bf3776-6907-4240-987d-5707abcb6ee9)
 
 ## Code Implementation
 
@@ -103,7 +108,7 @@ To test the trained model on new images, follow these steps:
 First, install dependencies   
 ```bash
 # clone project   
-git clone https://github.com/YourGithubName/deep-learning-project-template
+git clone https://github.com/ThisaraWeerakoon/Age-Classification
 
 # install project   
 cd deep-learning-project-template 
