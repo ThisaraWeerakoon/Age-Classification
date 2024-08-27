@@ -16,7 +16,7 @@ Conference
 </div>
 
 ![1_d6pG5pm8BKBe5uz16sp4zg-ezgif com-webp-to-jpg-converter](https://github.com/ThisaraWeerakoon/Age-Classification/assets/83450623/e02f049b-806e-41a5-9871-bdab48dfefd2)
-
+Visit <a href="https://github.com/ThisaraWeerakoon/Age-Classification-Project"> Deployment of this model </a> .
 You can have a look into my <a href= "https://medium.com/@thisara.weerakoon2001/age-classification-using-transfer-learning-vgg16-d2f240f67d26">medium post</a> for a comprehensive explanation about the code and theory behind the project
  
 ## Description   
